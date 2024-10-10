@@ -14,8 +14,56 @@
 
 #include <cmath>
 
+unsigned int GetNextWorkRequired2(const CBlockIndex* pindexLast, const CBlockHeader* pblock, const Consensus::Params& params)
+{
+    arith_uint256 bnProofOfWorkLimit;
+	bnProofOfWorkLimit.SetCompact(UintToArith256(params.powLimit).GetCompact());
+    /* current difficulty formula, - DarkGravity v3, written by Evan Duffield - evan@dashpay.io */
+    const CBlockIndex* BlockLastSolved = pindexLast;
+    const CBlockIndex* BlockReading = pindexLast;
+    int64_t nActualTimespan = 0;
+    int64_t LastBlockTime = 0;
+    int64_t PastBlocksMin = 24;
+    int64_t PastBlocksMax = 24;
+    int64_t CountBlocks = 0;
+    arith_uint256 PastDifficultyAverage;
+    arith_uint256 PastDifficultyAveragePrev;
+
+    if (BlockLastSolved == NULL || BlockLastSolved->nHeight == 0 || BlockLastSolved->nHeight < PastBlocksMin) {
+        return bnProofOfWorkLimit.GetCompact();
+    }
+
+    arith_uint256 bnTargetLimit = bnProofOfWorkLimit;
+    int64_t nTargetSpacing = 90;
+    int64_t nTargetTimespan = 60 * 40;
+    int64_t nActualSpacing = 0;
+    if (pindexLast->nHeight != 0)
+        nActualSpacing = pindexLast->GetBlockTime() - pindexLast->pprev->GetBlockTime();
+    if (nActualSpacing < 0)
+        nActualSpacing = 1;
+    // ppcoin: target change every block
+    // ppcoin: retarget with exponential moving toward target spacing
+    arith_uint256 bnNew;
+    bnNew.SetCompact(pindexLast->nBits);
+    int64_t nInterval = nTargetTimespan / nTargetSpacing;
+
+    int64_t numerator = (nInterval - 1) * nTargetSpacing + nActualSpacing + nActualSpacing;
+    int64_t denominator = (nInterval + 1) * nTargetSpacing;
+
+    bnNew *= numerator;
+    bnNew /= denominator;
+
+    if (bnNew <= 0 || bnNew > bnTargetLimit)
+        bnNew = bnTargetLimit;
+
+    return bnNew.GetCompact();
+}
+
 unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
 {
+    if (pindexLast->nHeight >= params.nForkThree)
+        GetNextWorkRequired2(pindexLast, pblock, params);
+    
     CBigNum bnProofOfWorkLimit;
 	bnProofOfWorkLimit.SetCompact(UintToArith256(params.powLimit).GetCompact());
 
