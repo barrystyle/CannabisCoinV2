@@ -66,6 +66,7 @@ public:
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 24 * 60 * 60; // one day
         consensus.nPowTargetSpacing = 42;
+        consensus.nPowTargetSpacing2 = 90; // 1.5 min block spacing
         consensus.checkpointPubKey = "045864a97ae62be8df3a0479e17671696e0d8132bfd2391e638f7dcf89bc33aa5f0eef639fc121c585a5af949dac261a18aa8688ce07300d4e467f8f213ea0a529";
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
@@ -73,6 +74,7 @@ public:
         consensus.nMinerConfirmationWindow = 28800;
         consensus.nForkOne = 2282000;
         consensus.nForkTwo = 3030000;
+        consensus.nForkThree = 730000;
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].bit = 28;
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nStartTime = 1199145601; // January 1, 2008
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nTimeout = 1230767999; // December 31, 2008
