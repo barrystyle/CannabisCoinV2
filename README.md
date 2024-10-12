@@ -31,7 +31,8 @@ We’re excited to share the launch of new community resources where you can sta
 - **New Website**: https://www.cannabiscoin.green
 - **Wiki Page**: https://www.cannabiscoin.wiki
 - **Discord**: https://discord.gg/3pZ2pbUtyG
-- **Telegram**: [Link to Telegram]
+- **Telegram**: https://t.me/+6B3tKB8KTRIyMTlk
+- **Twitter**:
 - **Blockchain Explorer**: https://explorer.cannabiscoin.green
 - **Blockchain Explorer2**: https://cannabiscoin.network
 
