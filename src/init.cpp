@@ -482,8 +482,8 @@ std::string HelpMessage(HelpMessageMode mode)
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/cannabiscoindev/cannabiscoin420>";
-    const std::string URL_WEBSITE = "<http://cannabiscoin.net>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/Cannabiscoinv2/CannabisCoinV2>";
+    const std::string URL_WEBSITE = "<http://cannabiscoin.green>";
     // todo: remove urls from translations on next change
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2014, COPYRIGHT_YEAR) + " ") + "\n" +
            "\n" +
