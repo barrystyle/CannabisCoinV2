@@ -78,6 +78,6 @@ Cannabis is potent medicine courtesy of high amounts of CBD, medicinal terpenes,
   - P2P Port: 39348  
 
 
-**"We are undertaking this initiative for the benefit of the community, as we, like many others, continue to hold CannabisCoin. Unfortunately, the previous developer has not been active since 2018 and has not responded to any community requests. This effort is not intended to undermine the original developers, but rather to ensure that the project does not fade away. We have contributed our efforts and resources to ensure that the CannabisCoin community can continue to thrive and move forward.
+**"We are undertaking this initiative for the benefit of the community, as we, like many others, continue to hold CannabisCoin. Unfortunately, the previous developer has not been active since 2021 and has not responded to any community requests. This effort is not intended to undermine the original developers, but rather to ensure that the project does not fade away. We have contributed our efforts and resources to ensure that the CannabisCoin community can continue to thrive and move forward.
 
 We are committed to ensuring CannabisCoin’s future, and we are working on several exciting updates, including restarting the CANNdy charity, enlisting on exchanges, releasing a new website, and much more."**
