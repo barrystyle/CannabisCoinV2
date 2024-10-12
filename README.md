@@ -1,12 +1,44 @@
-## HARDFORK BLOCK 3,030,000
-* Generate 631,842 extra coins on block 3,030,000 for the two items below.
-  * 451,896 coins to reimburse Bittrex for coins lost in 51% attack. ACP now enabled to prevent future attacks.
-  * 179,946 coins to cover dev costs for coding this hard fork in this wallet and Android wallet, fixing sync issue in Android wallet and upgrading the Cannabiscoin source code from the Bitcoin 0.8 codebase to the Bitcoin 0.13 codebase to include Segregated Witness, CheckLockTimeVerify and CheckSequenceVerify. 0.13 will greatly improve the performance of this wallet and overall user experience.
+## Wallet Update to v0.14.2 (Mandatory Update)
 
-[CannabisCoin releases and downloads page](https://github.com/cannabiscoindev/cannabiscoin420/releases)
+We are pleased to announce an important update to the CannabisCoin wallet that includes key security and performance improvements. This update is **mandatory** to ensure continued participation in the network.
+
+### Key Updates:
+- **Wallet Version Upgrade**: Updated wallet to v0.14.2.
+- **DGW3 (Dark Gravity Wave 3) Integration**: 
+  - A new difficulty-readjustment algorithm that fixes known exploits and enhances security.
+  - DGW3 will activate at block 7,175,000 to help mitigate 51% attacks and other vulnerabilities.
+- **Block Time Adjustment**: 
+  - From block 7,175,000, block time will increase from 42 seconds to 100 seconds to further enhance security and reduce the risk of 51% attacks.
+- **Seed Nodes**: 
+  - New hardcoded seed nodes added to keep the chain running smoothly and more stable.
+- **Checkpoints**: 
+  - Checkpoints have been added from block 6,800,000 up to block 7,135,000 to prevent chain splits.
+- **Protocol Enforcement**: 
+  - Protocol 70020 will be enforced, rejecting outdated wallets and nodes starting from block 7,175,000.
+- **One-Time Developer Fee**: 
+  - A one-time developer fee of 250,000 CANN has been allocated for marketing, the CANNdy charity, and ongoing expenses. This will be sent to the address: **CTeKMjzvoSLLR5WBfVL6XEi9g4fRDSFWeS**.
+- **Old Developer Fee Excluded**: 
+  - The old developer fee address has been excluded from the chain, as the previous developer has not been active since 2018.
+- **Updated Images and Icons**: 
+  - Wallet images and icons have been refreshed.
+
+### New Community Channels and Resources:
+We’re excited to share the launch of new community resources where you can stay connected:
+
+- **New Website**: https://www.cannabiscoin.green
+- **Wiki Page**: https://www.cannabiscoin.wiki
+- **Discord**: https://discord.gg/3pZ2pbUtyG
+- **Telegram**: [Link to Telegram]
+- **Blockchain Explorer**: https://explorer.cannabiscoin.green
+- **Blockchain Explorer2**: https:/cannabiscoin.network
+
+*Please note that the wallet has been forked from the original GitHub repository and updated with these changes. The original GitHub repository at (https://github.com/cannabiscoindev/cannabiscoin420/) is no longer maintained and is considered obsolete.*
+ 
+The original GitHub repository, https://github.com/cannabiscoindev/cannabiscoin420/, is no longer maintained and is considered obsolete.
+
 
 What is CannabisCoin?
----------------------
+-------------------------------------------
 
 CannabisCoin (CANN) is a peer-to-peer Internet digital currency that enables instant payments to anyone in the world.
 
@@ -30,21 +62,21 @@ There are two very distinct groups of marijuana strains. One is cannabis; the ot
 
 Cannabis is potent medicine courtesy of high amounts of CBD, medicinal terpenes, and flavonoids. It also contains varying amounts of THC. The higher the THC, the more pronounced its psychoactive effects
 
-Cannabis Coin Details:
+## Cannabis Coin Details:
 ----------------------
-Algorithm = X11  
-Maximum number of produced Cannabis Coins = 420,000,000 Coins  
-Cannabis Coin CANN rewards per block = Originally 420 coins but the inflation model reduced reward. Hard fork at block 2,282,000 will change the reward to 70 Coins.  
-Target per block = 42 Seconds  
-Halving = Every 100,000 Blocks before hard fork. Halving after fork happens when half of all coins produced at block 3,969,725, then every 3 million blocks which is roughly every 4 years.  
-Wallet Addresses will start with "C" for CANNABIS!  
-Ports:  
-RPC Port 39347  
-P2P Port 39348  
+- **Algorithm**: X11  
+- **Maximum number of produced Cannabis Coins**: 420,000,000 Coins  
+- **Cannabis Coin CANN rewards per block**: Originally 420 coins, but the inflation model reduced the reward. A hard fork at block 2,282,000 changed the reward to 70 coins.  
+- **Target per block**: 42 seconds (will be changed to 90 seconds starting from block 7,175,000)  
+- **Confirmation time**: 6 confirms  
+- **Maturity time**: 100 blocks  
+- **Halving**: Every 100,000 blocks before the hard fork. After the fork, halving happens when half of all coins are produced at block 3,969,725, then every 3 million blocks, approximately every 4 years.  
+- **Wallet Addresses**: Start with "C" for Cannabis!  
+- **Ports**:  
+  - RPC Port: 39347  
+  - P2P Port: 39348  
 
-Very IMPORTANT Official Cannabis Coin links are here:  
-CannabisCoin Facebook Page https://www.facebook.com/mmjcoin  
-CannabisCoin Twitter Page https://twitter.com/CannabisCoins  
-CannabisCoin Exchange https://bittrex.com/Market/Index?MarketName=BTC-CANN  
-CannabisCoin on Youtube http://www.youtube.com/user/CannabisCoin  
-Reddit subreddit http://www.reddit.com/r/cannabiscoins  
+
+**"We are undertaking this initiative for the benefit of the community, as we, like many others, continue to hold CannabisCoin. Unfortunately, the previous developer has not been active since 2018 and has not responded to any community requests. This effort is not intended to undermine the original developers, but rather to ensure that the project does not fade away. We have contributed our efforts and resources to ensure that the CannabisCoin community can continue to thrive and move forward.
+
+We are committed to ensuring CannabisCoin’s future, and we are working on several exciting updates, including restarting the CANNdy charity, enlisting on exchanges, releasing a new website, and much more."**
