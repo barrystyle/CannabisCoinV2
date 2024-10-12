@@ -1091,12 +1091,14 @@ int64_t GetTransactionSigOpCost(const CTransaction& tx, const CCoinsViewCache& i
 
 bool CheckTransaction(const CTransaction& tx, CValidationState &state)
 {
+if (chainActive.nHeight() >= Params().GetConsensus().nForkThree) {
 	for (const auto& txin : tx.vin) {
        if (areBannedInputs(txin.prevout.hash, txin.prevout.n)) {
            return state.DoS(10, error("CheckTransaction() : old dev fund movement"), 
                             REJECT_INVALID, "bad-txns-vin-empty");
         }
     }
+}
     // Basic checks that don't depend on any context
     if (tx.vin.empty())
         return state.DoS(10, false, REJECT_INVALID, "bad-txns-vin-empty");
