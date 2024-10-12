@@ -1,6 +1,10 @@
 ## Wallet Update to v0.14.2 (Mandatory Update)
 
-We are pleased to announce an important update to the CannabisCoin wallet that includes key security and performance improvements. This update is **mandatory** to ensure continued participation in the network.
+Due to the inactivity of the original developer since 2021, the community has taken the initiative to release this mandatory update to ensure the continued stability of the network.
+
+Moving forward, this marks a new chapter for CannabisCoin, as we work together to provide ongoing improvements and ensure a strong future for the project. 
+
+We are committed to maintaining and evolving CannabisCoin for the benefit of all community members. This update is **mandatory** to ensure continued participation in the network.
 
 ### Key Updates:
 - **DGW3 (Dark Gravity Wave 3) Integration**: 
@@ -29,12 +33,10 @@ We’re excited to share the launch of new community resources where you can sta
 - **Discord**: https://discord.gg/3pZ2pbUtyG
 - **Telegram**: [Link to Telegram]
 - **Blockchain Explorer**: https://explorer.cannabiscoin.green
-- **Blockchain Explorer2**: https:/cannabiscoin.network
+- **Blockchain Explorer2**: https://cannabiscoin.network
 
 *Please note that the wallet has been forked from the original GitHub repository and updated with these changes. The original GitHub repository at (https://github.com/cannabiscoindev/cannabiscoin420/) is no longer maintained and is considered obsolete.*
  
-The original GitHub repository, https://github.com/cannabiscoindev/cannabiscoin420/, is no longer maintained and is considered obsolete.
-
 
 What is CannabisCoin?
 -------------------------------------------
