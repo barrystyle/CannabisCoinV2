@@ -3,7 +3,6 @@
 We are pleased to announce an important update to the CannabisCoin wallet that includes key security and performance improvements. This update is **mandatory** to ensure continued participation in the network.
 
 ### Key Updates:
-- **Wallet Version Upgrade**: Updated wallet to v0.14.2.
 - **DGW3 (Dark Gravity Wave 3) Integration**: 
   - A new difficulty-readjustment algorithm that fixes known exploits and enhances security.
   - DGW3 will activate at block 7,175,000 to help mitigate 51% attacks and other vulnerabilities.
