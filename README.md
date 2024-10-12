@@ -29,10 +29,10 @@ We are committed to maintaining and evolving CannabisCoin for the benefit of all
 We’re excited to share the launch of new community resources where you can stay connected:
 
 - **New Website**: https://www.cannabiscoin.green
-- **Wiki Page**: https://www.cannabiscoin.wiki
-- **Discord**: https://discord.gg/3pZ2pbUtyG
-- **Telegram**: https://t.me/+6B3tKB8KTRIyMTlk
-- **Twitter**:
+- **Wiki Page**:   https://www.cannabiscoin.wiki
+- **Discord**:     https://discord.gg/3pZ2pbUtyG
+- **Telegram**:    https://t.me/+6B3tKB8KTRIyMTlk
+- **Twitter**:     https://x.com/CannabiscoinV2
 - **Blockchain Explorer**: https://explorer.cannabiscoin.green
 - **Blockchain Explorer2**: https://cannabiscoin.network
 
