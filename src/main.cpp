@@ -1091,7 +1091,7 @@ int64_t GetTransactionSigOpCost(const CTransaction& tx, const CCoinsViewCache& i
 
 bool CheckTransaction(const CTransaction& tx, CValidationState &state)
 {
-if (chainActive.nHeight() >= Params().GetConsensus().nForkThree) {
+if (chainActive.Height() >= Params().GetConsensus().nForkThree) {
 	for (const auto& txin : tx.vin) {
        if (areBannedInputs(txin.prevout.hash, txin.prevout.n)) {
            return state.DoS(10, error("CheckTransaction() : old dev fund movement"), 
