@@ -33,6 +33,7 @@ We’re excited to share the launch of new community resources where you can sta
 - **Discord**:     https://discord.gg/3pZ2pbUtyG
 - **Telegram**:    https://t.me/+6B3tKB8KTRIyMTlk
 - **Twitter**:     https://x.com/CannabiscoinV2
+- **Bootstrap**:   https://cannabiscoin.download
 - **Blockchain Explorer**: https://explorer.cannabiscoin.green
 - **Blockchain Explorer2**: https://cannabiscoin.network
 
