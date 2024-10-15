@@ -29,6 +29,7 @@ We are committed to maintaining and evolving CannabisCoin for the benefit of all
 We’re excited to share the launch of new community resources where you can stay connected:
 
 - **New Website**: https://www.cannabiscoin.green
+- **Bitcointalk:   https://bitcointalk.org/index.php?topic=5513101
 - **Wiki Page**:   https://www.cannabiscoin.wiki
 - **Discord**:     https://discord.gg/3pZ2pbUtyG
 - **Telegram**:    https://t.me/+6B3tKB8KTRIyMTlk
